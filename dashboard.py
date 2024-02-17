@@ -8,7 +8,7 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
-from streamlit_option_menu import option_menu
+import option_menu from streamlit_option_menu 
 import matplotlib.pyplot as plt
 
 
