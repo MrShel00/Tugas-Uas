@@ -150,7 +150,7 @@ def analisa_polusi_udara_dan_fluktuasi (df_air_quality):
         st.write("Berdasarkan grafik yang tertera pada pertanyaan nomor 6 debit hujan pertahun ada perubahan signifikan yang mana pada awal tahun mengalami debit hujan yang lumayan tinggi dan pada pertengahan tahun ada nya penurunan debit hujan yang sangat besar dan pada akhir tahun mengalami kenaikan debit hujan yang tinggi bisa kita simpul kan bahwa akan tidak akan banyak terjadinya banjir pada perusahaan")
 
 
-df_PRSA_Data_Changping = load_data("https://raw.githubusercontent.com/MrShel00/UAS/main/Tugas%20Uas/PRSA_Data_Changping.csv")
+df_PRSA_Data_Changping = load_data("https://raw.githubusercontent.com/MrShel00/Tugas-Uas/main/PRSA_Data_Changping.csv")
 
 with st.sidebar :
     selected = option_menu('Menu',['Dashboard'],
